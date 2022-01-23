@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <title>Calculadora Desenvolve</title>
+    <style>
+        td {
+            border: 1px dotted red;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+        }
+
+        .bloco-1 {
+            display: block;
+            margin: 0px auto;
+            color: gray;
+        }
+    </style>
+
+    <script type="text/javascript" src="script.js"> </script>
+
+</head>
+
+<body>
+    <div class="bloco-1">
+        <table style="margin: 0px auto;">
+            <tr>
+                <td colspan="4">
+                    <input type="text" id="numbers"/>
+                </td>
+            </tr>
+
+            <tr class="colorido">
+                <td>AC</td>
+                <td>CE</td>
+                <td> &lt; &lt; </td>
+                <td>/</td>
+            </tr>
+
+            <tr>
+                <td onclick="javascript:ClicaNumero(this);">7</td>
+                <td>8</td>
+                <td>9</td>
+                <td class="colorido">*</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td class="colorido">-</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td class="colorido">+</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">0</td>
+                <td>,</td>
+                <td class="colorido">=</td>
+            </tr>
+
+        </table>
+
+</body>
+
+</html>
